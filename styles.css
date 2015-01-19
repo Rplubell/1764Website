@@ -1,0 +1,59 @@
+h1
+{
+    color: white;
+    font-family: "impact";
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to bottom, #000099, #0000FF);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+body
+{
+    background: radial-gradient(#000099, #000000);
+}
+
+table, th, td
+{
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+    padding: 3px;
+}
+
+th
+{
+    background: linear-gradient(to bottom, #000099, #0000FF);
+}
+ 
+table
+{
+    width:100%;
+    font-family: "arial";
+    font-size: 18px;
+    border:collapse;
+}
+ 
+btn
+{
+    border-radius: 3px;
+    background: linear-gradient(to bottom, orange, red);
+    color: white;
+    float:right;
+    padding:3px;
+    font-size: 18px;
+}
+ 
+btn:hover
+{
+    background: linear-gradient(to bottom, red, orange);
+}
+ 
+btn:active
+{
+    border-width: 1px;
+    border-color: #FFFFFF;
+}
